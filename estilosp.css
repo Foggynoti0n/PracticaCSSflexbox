@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    font-family: "Montserrat";
+    background-color: black;
+    display: flex;
+    width: 100%;
+}
+
+.cont
+{
+    /*background-color: #c25b28;*/
+    height: 620px;
+    width: 50%;
+    padding: 1.5%;
+  box-sizing: border-box;
+}
+ .u
+ {
+    background-image: url(img/dune.jpg);
+    background-size: cover;
+ 
+   
+}
+
+.sub{
+ 
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dune{
+    text-decoration: none;
+    color: rgb(240, 189, 123);
+    font-size: 35px;
+    font-family:"Karantina";
+    letter-spacing: 1px;
+     margin-bottom: 120px;
+     text-shadow: 1px 3px 2px  black;
+}
+
+.dune:hover{
+    /*color: rgb(240, 189, 123);*/
+    color: azure;
+}
+
+
+#bd{
+    width: 15%;
+    height: 40px;
+    border: 1px solid beige;
+    border-radius: 50%;
+    background: none;
+}
+
+
+.info{
+    /*background-color: cadetblue;*/
+    width: 100%;
+    height: 600px;
+    margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  box-sizing: border-box;
+  color: beige;
+}
+
+.titulo{
+    font-weight: 600;
+    width: 50%;
+    /*background-color: darkolivegreen;*/
+    font-size: 38px;
+    display: flex;
+}
+ 
+
+ 
+.b{
+    color: #DA6021;
+}
+
+p{
+   /* background-color: darkslategray;*/
+    width: 70%;
+    margin-top: 0;
+}
+button{
+    background-color: black;
+    width: 15%;
+    height: 45px;
+   cursor: pointer;
+    border-radius: 10%;
+    color: beige;
+    border: 1px solid beige;
+    margin-top: 15px;
+}
+
+button a{
+    color:beige;
+    text-decoration: none;
+}
+ button a:hover{
+    color: chocolate;
+ }
